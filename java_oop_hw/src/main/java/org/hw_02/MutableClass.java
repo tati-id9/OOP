@@ -10,7 +10,7 @@ public final class MutableClass{
     }
 
     public String getField() {
-        return field.clone();
+        return field;
     }
 
     public Map<String, String> getFieldMap() {
