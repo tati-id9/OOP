@@ -5,18 +5,18 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-       task1();
+        familyTree();
     }
-    private static void task1() {
-        Person p1 = new Person("Вася", true);
-        Person p2 = new Person("Маша", false);
-        Person p3 = new Person("Коля", true);
-        Person p9 = new Person("Алевтина", false);
-        Person p4 = new Person("Василиса Петровна", false);
-        Person p5 = new Person("Николай Иванович", true);
-        Person p6 = new Person("Ольга Бузова", false);
-        Person p7 = new Person("Тимур Батрутдинов", true);
-        Person p8 = new Person("Филипп Киркоров", true);
+    private static void familyTree() {
+        Person p1 = new Person("Волков Василий", true);
+        Person p2 = new Person("Николаева Аолевтина", false);
+        Person p3 = new Person("Семин Александр", true);
+        Person p9 = new Person("Алешина Анна", false);
+        Person p4 = new Person("Васильева Алена", false);
+        Person p5 = new Person("Николаев Иван", true);
+        Person p6 = new Person("Коснянов Сергей", false);
+        Person p7 = new Person("Цаплин Михайл", true);
+        Person p8 = new Person("Симонов Артем", true);
 
         p1.setFather(p5);
         p1.setMother(p4);
